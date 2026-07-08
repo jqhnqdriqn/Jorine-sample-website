@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mga Akda | Masamang Damo.</title>
+  <meta name="description" content="Mga tula, tala, at salita ni Jorine June para sa Masamang Damo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand glitch" href="index.html" data-text="Masamang Damo.">Masamang Damo.</a>
+    <nav class="main-nav" aria-label="Pangunahing menu">
+      <a href="index.html">Home</a>
+      <a class="active" href="akda.html">Mga Akda</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-intro reveal">
+      <p class="kicker">koleksyon ng hindi napigil</p>
+      <h1>Mga Akda</h1>
+      <p class="lead">Tula, pirasong blog, at salita ng pagbangon. Hindi sila lahat mahaba. Hindi rin sila lahat mabait.</p>
+    </section>
+
+    <section class="filter-bar reveal delay-1" aria-label="Salain ang mga akda">
+      <button class="filter-btn active" data-filter="all">Lahat</button>
+      <button class="filter-btn" data-filter="tula">Tula</button>
+      <button class="filter-btn" data-filter="salita">Salita</button>
+      <button class="filter-btn" data-filter="tala">Tala</button>
+    </section>
+
+    <section class="works-list" aria-live="polite">
+      <article id="poste" class="work-item reveal" data-category="tula">
+        <div class="work-meta">
+          <span>Tula</span>
+          <time datetime="2026-07-08">Hulyo 2026</time>
+        </div>
+        <div class="work-body">
+          <h2>Sa Ilalim ng Poste</h2>
+          <p>Sa ilalim ng poste, may batang humahawak sa sariling anino. Hindi niya alam kung saan uuwi ang pagod, kaya isiniksik niya ito sa bulsa.</p>
+          <p>May ilaw na kumukurap. May jeep na hindi huminto. May pangalan siyang hindi narinig ng lungsod.</p>
+          <p>Pero sa umaga, nandoon pa rin siya. Parang damong tinapakan, mas mababa lang, hindi mas patay.</p>
+        </div>
+      </article>
+
+      <article id="semento" class="work-item reveal" data-category="salita">
+        <div class="work-meta">
+          <span>Salita</span>
+          <time datetime="2026-07-08">Hulyo 2026</time>
+        </div>
+        <div class="work-body">
+          <h2>Aral sa Semento</h2>
+          <p>Kung hindi ka pinili ng hardin, tumubo ka sa bitak.</p>
+          <p>May mga taong naghihintay ng permiso bago mabuhay. Huwag kang sumali sa pila na iyon. Minsan ang una mong tagumpay ay simpleng hindi ka na humihingi ng tawad sa pag-iral mo.</p>
+        </div>
+      </article>
+
+      <article id="tahimik" class="work-item reveal" data-category="tala">
+        <div class="work-meta">
+          <span>Tala</span>
+          <time datetime="2026-07-08">Hulyo 2026</time>
+        </div>
+        <div class="work-body">
+          <h2>Ang Ingay ng Tahimik</h2>
+          <p>May tahimik na hindi mahina. May tahimik na nag-iipon lang ng lakas. May tahimik na ayaw nang magpaliwanag sa mga taong sanay makinig lang kapag may apoy.</p>
+          <p>Kapag hindi ka nila narinig, hindi ibig sabihin wala kang sinabi. Minsan ibig sabihin lang, mali ang tenga nila.</p>
+        </div>
+      </article>
+
+      <article class="work-item reveal" data-category="tula">
+        <div class="work-meta">
+          <span>Tula</span>
+          <time datetime="2026-07-08">Hulyo 2026</time>
+        </div>
+        <div class="work-body">
+          <h2>Basag na Bintana</h2>
+          <p>May bintanang basag sa dibdib ko. Doon pumapasok ang ulan, usok, at balita ng mga taong umalis.</p>
+          <p>Hindi ko na ito pinapalitan. Dito ko natutunang ang sugat, kapag hindi itinago, nagiging lagusan ng liwanag.</p>
+        </div>
+      </article>
+
+      <article class="work-item reveal" data-category="salita">
+        <div class="work-meta">
+          <span>Salita</span>
+          <time datetime="2026-07-08">Hulyo 2026</time>
+        </div>
+        <div class="work-body">
+          <h2>Para sa Sariling Napagod</h2>
+          <p>Hindi katamaran ang magpahinga kapag ang buong katawan mo ay naging pabrika ng pagtitiis.</p>
+          <p>Pero huwag mong gawing tirahan ang paghinto. Magpahinga ka. Tapos bumalik kang may ngipin.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Masamang Damo. / Jorine June</p>
+    <a href="about.html">Sino si Jorine?</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
